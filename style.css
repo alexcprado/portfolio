@@ -450,6 +450,7 @@ h3 {
     body {
         animation: none;
         background-color: #050528;
+        margin: auto;
     }
 
     * {
