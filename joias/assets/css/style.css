@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+
+.cards-aneis div{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 680px;
+}
+
+.icone:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="./assets/css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/joias/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Elowen joias</title>
+</head>
+
+<body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header class="flex justify-between items-center px-6 py-7 bg-black text-white">
+        <div class="text-3xl font-serif">ELOWEN</div>
+        <nav class="space-x-6 hidden md:block text-2xl">
+            <a href="#" class="hover:text-yellow-500 duration-200 ease-in">Joias</a>
+            <a href="#" class="hover:text-yellow-500 duration-200 ease-in">Coleções</a>
+            <a href="#" class="hover:text-yellow-500 duration-200 ease-in">Sobre</a>
+        </nav>
+        <div class="flex space-x-10 items-center text-2xl">
+            <button id="cart-button" class="hover:text-yellow-500 duration-300 ease-in icone"><i
+                    class="fa-solid fa-cart-shopping"></i></button>
+            <button class="hover:text-yellow-500 duration-300 ease-in icone"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="hover:text-yellow-500 duration-300 ease-in icone"><i class="fa-solid fa-user"></i></button>
+        </div>
+    </header>
+    <!-- Hero -->
+    <section class="grid grid-cols-1 md:grid-cols-2 p-8 items-center">
+        <div>
+            <h1 class="text-1xl md:text-8xl font-serif text-yellow-800">Brilhe com Elegância</h1>
+            <p class="mt-4 text-4xl">Joias exclusivas, feitas para eternizar seus momentos mais
+                preciosos</p>
+        </div>
+        <div class="flex justify-center md:justify-end">
+            <img class="logo" src="./imagens-joias/logo.png" alt="Joias" class="rounded-md shadow-md" />
+        </div>
+    </section>
+    <!-- Produtos -->
+    <section class="p-8">
+        <h2 class="text-4xl font-serif mb-4">Anéis em Destaque</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 cards-aneis text-2xl">
+            <div class="text-center">
+                <img src="./imagens-joias/anel.jpg" alt="Anel 1" />
+                <p class="text-xl font-semibold">R$150.000</p>
+                <p>Par de Anéis</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/anel2.jpg" alt="Anel 2" />
+                <p class="text-xl font-semibold">R$220.000</p>
+                <p>Par de Alianças</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/anel3.jpg" alt="Anel 3" />
+                <p class="text-xl font-semibold">R$15.000</p>
+                <p>Anel Solitário</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h2 class="text-4xl font-serif mb-4">Colares em Destaque</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 cards-aneis text-2xl">
+            <div class="text-center">
+                <img src="./imagens-joias/colar.jpg" alt="Anel 1" />
+                <p class="text-xl font-semibold">R$35.000</p>
+                <p>Colar da Sorte</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/colar2.jpg" alt="Anel 2" />
+                <p class="text-xl font-semibold">R$70.000</p>
+                <p>Colar de Anjo</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/colar3.jpg" alt="Anel 3" />
+                <p class="text-xl font-semibold">R$27.000</p>
+                <p>Colar de Rosa</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h2 class="text-4xl font-serif mb-4">Pulseiras em Destaque</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 cards-aneis text-2xl">
+            <div class="text-center">
+                <img src="./imagens-joias/pulseira.jpg" alt="Anel 1" />
+                <p class="text-xl font-semibold">R$87.000</p>
+                <p>Pulseira com Pingente de Diamante</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/pulseira2.jpg" alt="Anel 2" />
+                <p class="text-xl font-semibold">R$15.000</p>
+                <p>Pulseira Angelical</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/pulseira3.jpg" alt="Anel 3" />
+                <p class="text-xl font-semibold">R$44.000</p>
+                <p>Pulseira Bold</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h2 class="text-4xl font-serif mb-4">Relógios em Destaque</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 cards-aneis text-2xl">
+            <div class="text-center">
+                <img src="./imagens-joias/relogio.jpg" alt="Anel 1" />
+                <p class="text-xl font-semibold">R$210.000</p>
+                <p>Relógio Gold</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/relogio3.jpg" alt="Anel 2" />
+                <p class="text-xl font-semibold">R$330.000</p>
+                <p>Relógio Shine</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/relogio2.jpg" alt="Anel 3" />
+                <p class="text-xl font-semibold">R$140.000</p>
+                <p>Relógio Casual</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-8">
+        <h2 class="text-4xl font-serif mb-4">Brincos em Destaque</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 cards-aneis text-2xl">
+            <div class="text-center">
+                <img src="./imagens-joias/brinco.jpg" alt="Anel 1" />
+                <p class="text-xl font-semibold">R$12.000</p>
+                <p>Brinco Elegant</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/brinco2.jpg" alt="Anel 2" />
+                <p class="text-xl font-semibold">R$37.000</p>
+                <p>Brinco Egípicio</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+            <div class="text-center">
+                <img src="./imagens-joias/brinco3.jpg" alt="Anel 3" />
+                <p class="text-xl font-semibold">R$440.000</p>
+                <p>Brinco Night Glow</p>
+                <button class="add-to-cart bg-black text-white px-3 py-1 mt-2 rounded-lg">Adicionar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrinho -->
+    <aside id="cart" class="fixed right-0 top-0 h-full w-64 bg-white text-black shadow-lg p-4
+ transform translate-x-full transition-transform duration-300">
+        <h2 class="text-xl font-bold mb-4">Carrinho</h2>
+        <ul id="cart-items" class="space-y-2"></ul>
+        <button id="close-cart" class="mt-4 bg-black text-white px-3 py-1">Fechar</button>
+    </aside>
+    <!-- Footer -->
+    <footer class="bg-black text-white p-8 grid md:grid-cols-4 gap-4 text-sm mt-10">
+        <div>
+            <h3 class="font-bold mb-2">CATEGORIAS</h3>
+            <ul>
+                <li>Anéis</li>
+                <li>Colares</li>
+                <li>Brincos</li>
+                <li>Pulseiras</li>
+                <li>Relógios</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2">INFORMAÇÕES</h3>
+            <ul>
+                <li>Entrega e Trocas</li>
+                <li>Política de Privacidade</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2">ATENDIMENTO</h3>
+            <ul>
+                <li>Contato</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold mb-2">RECEBA NOVIDADES</h3>
+            <input type="email" placeholder="Email" class="p-1 text-black" />
+            <button class="block mt-2 bg-white text-black px-2 py-1 rounded-xl">ASSINAR</button>
+        </div>
+    </footer>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
