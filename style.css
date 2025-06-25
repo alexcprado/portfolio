@@ -423,10 +423,10 @@ h3 {
     }
 
     * {
-        margin-left: 0px !important;
-        padding-left: 3.3px !important;
-        margin-right: 0px !important;
-        padding-right: 0px !important;
+        /* margin-left: 0px !important; */
+        /* padding-left: 2px !important; */
+        /* margin-right: 0px !important; */
+        /* padding-right: 0px !important; */
     }
 }
 
