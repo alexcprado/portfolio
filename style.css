@@ -5,8 +5,13 @@
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes gradientShift {
@@ -23,9 +28,9 @@
     }
 }
 
-:root{
-  --font-base: "Inter", sans-serif;
-  --font-heading: "Poppins", sans-serif;
+:root {
+    --font-base: "Inter", sans-serif;
+    --font-heading: "Poppins", sans-serif;
 }
 
 body {
@@ -35,8 +40,11 @@ body {
     font-family: var(--font-base);
 }
 
-h1, h2, h3 { 
-    font-family: var(--font-heading); line-height:1.1; 
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+    line-height: 1.1;
 }
 
 @keyframes appear {
@@ -44,11 +52,12 @@ h1, h2, h3 {
         opacity: 0;
         transform: translateX(-50px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
     }
-    
+
 }
 
 .scroll {
@@ -82,7 +91,7 @@ h1, h2, h3 {
 }
 
 .esquerda {
-    display: flex;   
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 50px;
@@ -168,21 +177,23 @@ h1, h2, h3 {
 }
 
 @keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-15px);
-  }
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-15px);
+    }
 }
 
 @-webkit-keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-15px);
-  }
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-15px);
+    }
 }
 
 .card {
@@ -291,3 +302,158 @@ h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 480px) {
+    .scroll {
+        animation: none;
+    }
+
+    .limitar-secao {
+        width: 360px;
+    }
+
+    .titulo-principal {
+        font-size: 14px;
+        max-width: 50%;
+    }
+
+    .descricao {
+        font-size: 11px;
+        max-width: 50%;
+        margin-top: 6px;
+    }
+
+    .esquerda {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .direita img {
+        max-width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        position: relative;
+        right: 117px;
+        top: 10px;
+    }
+
+    .link a {
+        right: 0;
+        font-size: 10px;
+        padding: 8px;
+        top: 10px;
+    }
+
+    .link a:hover {
+        transition: none;
+        background-color: rgb(32, 32, 121);
+        color: rgb(210, 203, 203);
+    }
+
+    .sobre {
+        margin-top: 30px;
+    }
+
+    .sobre h2 {
+        font-size: 17px;
+    }
+
+    .sobre p {
+
+        font-size: 11px;
+        margin-top: 10px;
+
+    }
+
+    .projetos h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 9px;
+    }
+
+    .card:hover {
+        transition: none;
+        transform: none;
+        animation: none;
+    }
+
+    .tecnologias h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .tecnologias-imagens img {
+       width: 40px;
+       height: 40px;
+    }
+
+    .tecnologias-imagens p {
+        font-size: 10px;;
+    }
+
+    .tecnologias-imagens img:hover {
+        transform: none;
+    }
+
+    .tecnologia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape {
+        margin-top: 35px;
+    }
+
+    .rodape h2 {
+        font-size: 22px;
+    }
+
+    .redes-sociais a {
+        font-size: 12px;
+    }
+
+    .redes-sociais a:hover {
+        color: rgb(47, 100, 173);
+    }
+
+    .redes-sociais i {
+        font-size: 18px;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .copyright {
+        margin-bottom: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+        animation: none;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (min-width: 1025px) {}
