@@ -137,7 +137,6 @@ h3 {
 .sobre h2 {
     color: rgb(41, 44, 214);
     font-size: 57px;
-    ;
 }
 
 .sobre p {
@@ -333,8 +332,8 @@ h3 {
         max-width: 100px;
         height: 100px;
         margin-top: 10px;
-        position: relative;
-        right: 117px;
+        position: absolute;
+        right: 37px;
         top: 10px;
     }
 
@@ -380,6 +379,7 @@ h3 {
         width: 90%;
         margin-bottom: 20px;
     }
+
     .card h3 {
         font-size: 15px;
     }
@@ -400,12 +400,13 @@ h3 {
     }
 
     .tecnologias-imagens img {
-       width: 40px;
-       height: 40px;
+        width: 40px;
+        height: 40px;
     }
 
     .tecnologias-imagens p {
-        font-size: 10px;;
+        font-size: 10px;
+        ;
     }
 
     .tecnologias-imagens img:hover {
@@ -447,8 +448,13 @@ h3 {
     }
 
     body {
-        overflow-x: hidden;
         animation: none;
+        background-color: #050528;
+    }
+
+    * {
+        margin-left: 0px !important;
+        padding-left: 2.2px !important;
     }
 }
 
