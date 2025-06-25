@@ -421,13 +421,6 @@ h3 {
         background-color: #050528;
         margin: auto;
     }
-
-    * {
-        /* margin-left: 0px !important; */
-        /* padding-left: 2px !important; */
-        /* margin-right: 0px !important; */
-        /* padding-right: 0px !important; */
-    }
 }
 
 @media screen and (max-width: 768px) {}
