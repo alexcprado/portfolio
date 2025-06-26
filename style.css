@@ -154,7 +154,8 @@ h3 {
     padding: 20px;
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
-    transition: transform 0.1s ease;
+    transition: transform 0.5s ease;
+    text-decoration: none;
 }
 
 @keyframes bounce {
@@ -169,7 +170,7 @@ h3 {
 
 @-webkit-keyframes bounce {
     from {
-        transform: translateY(0px);
+        transform: translateY(1px);
     }
 
     to {
@@ -177,16 +178,11 @@ h3 {
     }
 }
 
-.card {
-    text-decoration: none;
-}
-
 .card img {
     width: 100%;
 }
 
 .card:hover {
-    transform: translateY(10px);
     animation: bounce 1s ease-in-out infinite alternate;
 }
 
